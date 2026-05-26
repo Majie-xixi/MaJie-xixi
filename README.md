@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=800&center=true&vCenter=true&lines=Loading...+%E9%AD%94%E6%B3%95%E5%90%9F%E5%94%B1%E4%B8%AD+%E2%9C%A8;Bug+%E9%80%80%E6%B2%BB%EF%BC%8C%E5%81%B6%E5%B0%94%E7%88%86%E7%82%B8+%F0%9F%92%A5;%E5%9C%A8%E4%BB%A3%E7%A0%81%E5%92%8C%E7%95%AA%E5%89%A7%E4%B9%8B%E9%97%B4%E6%A8%AA%E8%B7%B3+%F0%9F%93%BA" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=800&center=true&vCenter=true&lines=Initializing...+%E2%9C%85;%E5%92%96%E5%95%A1%E5%9B%A0%E5%B7%B2%E6%B3%A8%E5%85%A5%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%BC%80%E5%A7%8B+coding+%E2%98%95;Bug+detected...+preparing+for+battle+%F0%9F%8E%AE" />
 </div>
 
 📫 **Reach me at:** [mjie51939@gmail.com](mailto:mjie51939@gmail.com)
@@ -29,13 +29,13 @@
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Majie-xixi&show_icons=true&theme=default&hide_title=true)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Majie-xixi&show_icons=true&theme=default&hide_title=true)](https://github.com/Majie-xixi)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Majie-xixi&layout=compact)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Majie-xixi&layout=compact)](https://github.com/Majie-xixi?tab=repositories)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Majie-xixi)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Majie-xixi)](https://github.com/Majie-xixi)
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=Majie-xixi&theme=flat&no-frame=true&row=1)
+[![Trophies](https://github-profile-trophy.vercel.app/?username=Majie-xixi&theme=flat&no-frame=true&row=1)](https://github.com/Majie-xixi)
 
 </div>
 
