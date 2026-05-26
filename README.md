@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=500&lines=%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88;MCU+%7C+RTOS+%7C+Linux;%E6%8C%81%E7%BB%AD%E6%90%9E%E5%B7%A5%E5%85%B7%F0%9F%9B%A0%EF%B8%8F" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=600&lines=Loading...+%E9%AD%94%E6%B3%95%E5%90%9F%E5%94%B1%E4%B8%AD+%E2%9C%A8;Bug+%E9%80%80%E6%B2%BB%EF%BC%8C%E5%81%B6%E5%B0%94%E7%88%86%E7%82%B8+%F0%9F%92%A5;%E5%9C%A8%E4%BB%A3%E7%A0%81%E5%92%8C%E7%95%AA%E5%89%A7%E4%B9%8B%E9%97%B4%E6%A8%AA%E8%B7%B3+%F0%9F%93%BA" />
 </p>
 
 📫 **Reach me at:** [mjie51939@gmail.com](mailto:mjie51939@gmail.com)
