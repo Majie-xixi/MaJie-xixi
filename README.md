@@ -1,58 +1,60 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=800&center=true&vCenter=true&lines=Initializing...+%E2%9C%85;%E5%92%96%E5%95%A1%E5%9B%A0%E5%B7%B2%E6%B3%A8%E5%85%A5%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%BC%80%E5%A7%8B+coding+%E2%98%95;Bug+detected...+preparing+for+battle+%F0%9F%8E%AE" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=820&center=true&vCenter=true&lines=Embedded+developer+%7C+STM32+%2F+GD32+%7C+RTOS;Building+tools+that+save+setup+time;Coffee+loaded%2C+debugger+attached+%E2%98%95" alt="Typing intro" />
 </div>
+
+## Hi, I'm Majie
+
+I focus on embedded software development around **STM32 / GD32**, **ARM Cortex-M**, **Keil MDK**, **GCC+CMake**, and small RTOS-based MCU projects.
+
+I am currently building **MCUQuickStart**, a one-click STM32/GD32 project generator that creates ready-to-build Keil or CMake projects with optional FreeRTOS and RT-Thread Nano support.
 
 📫 **Reach me at:** [mjie51939@gmail.com](mailto:mjie51939@gmail.com)
 
-### 🛠️ Tech Stack
+## Tech Stack
 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![ARM](https://img.shields.io/badge/ARM_Cortex--M-0091BD?style=for-the-badge&logo=arm&logoColor=white)
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
 ![GD32](https://img.shields.io/badge/GD32-GigaDevice-00A4EF?style=for-the-badge)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-3A3A3A?style=for-the-badge)
+![RT--Thread](https://img.shields.io/badge/RT--Thread-0A66C2?style=for-the-badge)
 ![Keil](https://img.shields.io/badge/Keil_MDK-CC0000?style=for-the-badge&logo=armkeil&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
----
-
-### 📌 Projects
+## Featured Project
 
 [![MCUQuickStart](https://github-readme-stats.vercel.app/api/pin/?username=Majie-xixi&repo=MCUQuickStart&theme=default)](https://github.com/Majie-xixi/MCUQuickStart)
 
-**STM32/GD32 Keil 工程模板一键生成工具** — 支持 4 系列 37 款芯片，标准库 + FreeRTOS
+**MCUQuickStart** is a one-click STM32/GD32 project generator.
 
----
+- Supports 4 MCU families and 37 chip models
+- Generates Keil MDK projects
+- Optional GCC+CMake output for CLion / VS Code
+- Optional FreeRTOS and RT-Thread Nano integration
+- Light / dark PyQt6 UI
 
-### 📊 Stats
+## GitHub Stats
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Majie-xixi&show_icons=true&theme=default&hide_title=true)](https://github.com/Majie-xixi)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Majie-xixi&show_icons=true&theme=default&hide_title=true)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Majie-xixi&layout=compact)](https://github.com/Majie-xixi?tab=repositories)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Majie-xixi&layout=compact)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Majie-xixi)](https://github.com/Majie-xixi)
-
-[![Trophies](https://github-profile-trophy.vercel.app/?username=Majie-xixi&theme=flat&no-frame=true&row=1)](https://github.com/Majie-xixi)
+![GitHub Streak](https://streak-stats.demolab.com/?user=Majie-xixi)
 
 </div>
 
----
-
-### 🐍 Contribution Snake
+## Contribution Snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Majie-xixi/MaJie-xixi/main/snake/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Majie-xixi/MaJie-xixi/main/snake/github-contribution-grid-snake.svg">
-  <img alt="Snake" src="https://raw.githubusercontent.com/Majie-xixi/MaJie-xixi/main/snake/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="snake/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="snake/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution snake" src="snake/github-contribution-grid-snake.svg">
 </picture>
 
----
-
-### 👀 Profile Views
+## Profile Views
 
 ![Visitors](https://komarev.com/ghpvc/?username=Majie-xixi&color=blue&style=flat)
-
-</div>
