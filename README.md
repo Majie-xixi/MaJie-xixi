@@ -35,25 +35,22 @@ I like the part where software meets real signals: GPIO, UART logs, startup file
 
 </div>
 
-## Focus
+## Embedded Direction
 
-| Area | What I care about |
-| --- | --- |
-| Embedded Linux | board bring-up, serial console, GPIO / IRQ debug, driver-facing workflows |
-| MCU firmware | STM32 / GD32, ARM Cortex-M, startup code, linker scripts, peripheral templates |
-| RTOS work | FreeRTOS, RT-Thread Nano, SysTick and delay adaptation |
-| Tooling | C, Python, PyQt6, Keil MDK, GCC, CMake, project scaffolding |
+<div align="center">
 
-## Lab Notes
+![Board Bring-up](https://img.shields.io/badge/Board_Bring--up-0F172A?style=for-the-badge&logo=linux&logoColor=5EEAD4)
+![Serial Debug](https://img.shields.io/badge/Serial_Debug-0F172A?style=for-the-badge&logo=gnometerminal&logoColor=60A5FA)
+![GPIO IRQ](https://img.shields.io/badge/GPIO_%2F_IRQ-0F172A?style=for-the-badge&logo=hackaday&logoColor=A7F3D0)
+![Driver Workflow](https://img.shields.io/badge/Driver_Workflow-0F172A?style=for-the-badge&logo=linuxcontainers&logoColor=FACC15)
+![RTOS Porting](https://img.shields.io/badge/RTOS_Porting-0F172A?style=for-the-badge&logoColor=93C5FD)
+![Project Tooling](https://img.shields.io/badge/Project_Tooling-0F172A?style=for-the-badge&logo=python&logoColor=FACC15)
 
-```text
-$ dmesg | grep -i "gpio\|irq\|uart"
-[    0.421] arm64 board online
-[    1.037] ttyS0: serial console attached
-[    1.284] gpiochip0: registered 96 lines
-[    1.619] irq/42-gpio: edge interrupt ready
-[    2.006] userland: caffeine loaded, debugger attached
-```
+</div>
+
+- MCU firmware around STM32 / GD32, startup code, linker scripts, peripherals, and RTOS timing.
+- Embedded Linux bring-up around ARM boards, serial console, GPIO interrupts, and debug traces.
+- Desktop utilities and project scaffolding tools that reduce repetitive setup work.
 
 ## Statistics
 
