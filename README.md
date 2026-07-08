@@ -1,18 +1,10 @@
 <div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=900&center=true&vCenter=true&width=920&lines=Embedded+software+developer;MCU+firmware+%7C+Embedded+Linux+%7C+RTOS;Caffeine+loaded%2C+debugger+attached%2C+serial+console+alive" alt="Typing intro">
+
 # Majie
 
-**Embedded software developer focused on MCU and embedded Linux**
-
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![ARM](https://img.shields.io/badge/ARM_Cortex--M-0091BD?style=for-the-badge&logo=arm&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![GD32](https://img.shields.io/badge/GD32-GigaDevice-00A4EF?style=for-the-badge)
-![FreeRTOS](https://img.shields.io/badge/FreeRTOS-3A3A3A?style=for-the-badge)
-![RT-Thread](https://img.shields.io/badge/RT--Thread-0A66C2?style=for-the-badge)
-
-<img src="assets/terminal-motto.svg" alt="Embedded developer terminal motto" width="100%">
+**MCU firmware · Embedded Linux · Board bring-up · RTOS tooling**
 
 <img src="assets/embedded-linux-lab.png" alt="Embedded Linux board bring-up and IRQ debug lab" width="100%">
 
@@ -20,11 +12,28 @@
 
 ## About
 
-I work close to the hardware: **MCU firmware**, **embedded Linux**, **ARM boards**, **RTOS integration**, serial debugging, build systems, and the small tools that make bring-up less painful.
+I work close to the hardware: **MCU firmware**, **embedded Linux**, **ARM boards**, **RTOS integration**, serial debugging, build systems, and small tools that make bring-up less painful.
 
 I like the part where software meets real signals: GPIO, UART logs, startup files, linker scripts, interrupt paths, SDK layouts, and board-specific details that decide whether a project boots cleanly.
 
 **Reach me at:** [mjie51939@gmail.com](mailto:mjie51939@gmail.com)
+
+## Technologies
+
+<div align="center">
+
+[![C](https://img.shields.io/badge/C-111827?style=for-the-badge&logo=c&logoColor=5EEAD4)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=FACC15)](https://www.kernel.org/)
+[![ARM](https://img.shields.io/badge/ARM_Cortex--M-111827?style=for-the-badge&logo=arm&logoColor=60A5FA)](https://www.arm.com/)
+[![STM32](https://img.shields.io/badge/STM32-111827?style=for-the-badge&logo=stmicroelectronics&logoColor=60A5FA)](https://www.st.com/)
+[![GD32](https://img.shields.io/badge/GD32-111827?style=for-the-badge&logoColor=5EEAD4)](https://www.gigadevice.com/)
+[![FreeRTOS](https://img.shields.io/badge/FreeRTOS-111827?style=for-the-badge&logoColor=A7F3D0)](https://www.freertos.org/)
+[![RT-Thread](https://img.shields.io/badge/RT--Thread-111827?style=for-the-badge&logoColor=93C5FD)](https://www.rt-thread.io/)
+[![CMake](https://img.shields.io/badge/CMake-111827?style=for-the-badge&logo=cmake&logoColor=5EEAD4)](https://cmake.org/)
+[![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=FACC15)](https://www.python.org/)
+[![Qt](https://img.shields.io/badge/PyQt6-111827?style=for-the-badge&logo=qt&logoColor=41CD52)](https://www.qt.io/)
+
+</div>
 
 ## Focus
 
@@ -46,14 +55,18 @@ $ dmesg | grep -i "gpio\|irq\|uart"
 [    2.006] userland: caffeine loaded, debugger attached
 ```
 
-## Working Range
+## Statistics
 
-| Layer | Tools / Topics |
-| --- | --- |
-| Board | ARM SBCs, MCU dev boards, UART adapters, GPIO headers |
-| Kernel-facing | interrupts, serial logs, device bring-up, debug traces |
-| Firmware | startup files, linker scripts, peripheral init, RTOS timing |
-| Application tools | Python utilities, PyQt6 desktop tools, project generators |
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Majie-xixi&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub stats">
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Majie-xixi&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top languages">
+
+<img width="720" src="https://streak-stats.demolab.com?user=Majie-xixi&theme=github-dark-blue&hide_border=true" alt="GitHub streak">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Majie-xixi&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Contribution activity graph">
+
+</div>
 
 ## Current Work
 
