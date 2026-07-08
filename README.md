@@ -14,9 +14,9 @@
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-</div>
+<img src="assets/embedded-lab.svg" alt="Embedded Toolchain Lab" width="100%">
 
----
+</div>
 
 ## About
 
@@ -26,32 +26,18 @@ I am currently building **MCUQuickStart**, a one-click STM32/GD32 project genera
 
 **Reach me at:** [mjie51939@gmail.com](mailto:mjie51939@gmail.com)
 
-## Featured Project
+## What I Build
 
-<a href="https://github.com/Majie-xixi/MCUQuickStart">
-  <img src="https://opengraph.githubassets.com/mcuquickstart-profile/Majie-xixi/MCUQuickStart" alt="MCUQuickStart preview" width="100%">
-</a>
-
-### [MCUQuickStart](https://github.com/Majie-xixi/MCUQuickStart)
-
-A one-click STM32/GD32 project generator for embedded developers who do not want to rebuild project scaffolding by hand every time.
-
-- Supports 4 MCU families and 37 chip models
-- Generates Keil MDK projects
-- Optional GCC + CMake output for CLion / VS Code
-- Optional FreeRTOS and RT-Thread Nano integration
-- RT-Thread Nano one-click project generation
-- SDK `.zip` / `.7z` auto-extract
-- Light / dark PyQt6 UI
-
-## Engineering Focus
-
-| Area | Work |
+| Area | Details |
 | --- | --- |
-| MCU project generation | Keil MDK projects, CMake output, linker scripts, startup files |
-| RTOS integration | FreeRTOS, RT-Thread Nano, delay and SysTick adaptation |
-| Chip families | STM32F10x, STM32F4xx, GD32F10x, GD32F4xx |
-| Tooling | Python, PyQt6, GCC, CMake, embedded build workflows |
+| MCU project generators | Keil MDK scaffolding, CMake output, startup files, linker scripts |
+| RTOS-ready templates | FreeRTOS, RT-Thread Nano, SysTick and delay adaptation |
+| Chip support | STM32F10x, STM32F4xx, GD32F10x, GD32F4xx |
+| Desktop tooling | Python, PyQt6, SDK extraction, project configuration UI |
+
+## Current Focus
+
+**[MCUQuickStart](https://github.com/Majie-xixi/MCUQuickStart)** is the main tool I am shaping now: one-click STM32/GD32 project generation with Keil, optional GCC + CMake, FreeRTOS, RT-Thread Nano, and SDK archive handling.
 
 ## Contribution Snake
 
@@ -60,8 +46,6 @@ A one-click STM32/GD32 project generator for embedded developers who do not want
   <source media="(prefers-color-scheme: light)" srcset="snake/github-contribution-grid-snake.svg">
   <img alt="GitHub contribution snake" src="snake/github-contribution-grid-snake.svg">
 </picture>
-
----
 
 <div align="center">
 
