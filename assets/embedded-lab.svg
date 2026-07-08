@@ -1,0 +1,62 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset="0.48" stop-color="#10243A"/>
+      <stop offset="1" stop-color="#06140F"/>
+    </linearGradient>
+    <linearGradient id="trace" x1="120" y1="310" x2="1080" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2DD4BF"/>
+      <stop offset="0.55" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A7F3D0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.18 0 0 0 0 0.8 0 0 0 0 0.72 0 0 0 0.75 0"/>
+      <feBlend in="SourceGraphic" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#7DD3FC" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
+
+  <g opacity="0.22">
+    <circle cx="1040" cy="88" r="126" fill="#22D3EE"/>
+    <circle cx="150" cy="348" r="160" fill="#34D399"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M90 312H190L230 250H315L360 180H470L512 235H610L654 138H772L814 212H930L975 150H1108" stroke="url(#trace)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M90 344H245L288 292H430L472 326H616L656 284H760L808 328H1108" stroke="#34D399" stroke-opacity="0.55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(444 92)">
+    <rect x="0" y="0" width="312" height="210" rx="26" fill="#081826" stroke="#67E8F9" stroke-opacity="0.55" stroke-width="2"/>
+    <rect x="38" y="35" width="236" height="140" rx="16" fill="#102A3F" stroke="#A7F3D0" stroke-opacity="0.45"/>
+    <path d="M70 88H242M70 122H242" stroke="#60A5FA" stroke-opacity="0.28"/>
+    <path d="M102 58V24M154 58V24M206 58V24M102 186V152M154 186V152M206 186V152" stroke="#5EEAD4" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-32 58H18M-32 105H18M-32 152H18M294 58H344M294 105H344M294 152H344" stroke="#5EEAD4" stroke-width="5" stroke-linecap="round"/>
+    <text x="156" y="104" text-anchor="middle" fill="#E0F2FE" font-family="Consolas, 'Courier New', monospace" font-size="24" font-weight="700">MCU</text>
+    <text x="156" y="136" text-anchor="middle" fill="#A7F3D0" font-family="Consolas, 'Courier New', monospace" font-size="16">STM32 / GD32</text>
+  </g>
+
+  <g font-family="Consolas, 'Courier New', monospace">
+    <text x="74" y="90" fill="#E0F2FE" font-size="44" font-weight="700">Embedded Toolchain Lab</text>
+    <text x="78" y="132" fill="#BAE6FD" font-size="20">Keil MDK · GCC + CMake · FreeRTOS · RT-Thread Nano</text>
+    <text x="78" y="178" fill="#5EEAD4" font-size="18">&gt; generating ready-to-build MCU projects</text>
+    <text x="78" y="205" fill="#93C5FD" font-size="18">&gt; wiring SDKs, startup files, linker scripts</text>
+  </g>
+
+  <g transform="translate(826 92)" font-family="Consolas, 'Courier New', monospace">
+    <rect x="0" y="0" width="292" height="176" rx="18" fill="#07131F" stroke="#60A5FA" stroke-opacity="0.42"/>
+    <text x="24" y="44" fill="#5EEAD4" font-size="18">build target</text>
+    <text x="24" y="78" fill="#E0F2FE" font-size="20">MCUQuickStart.exe</text>
+    <text x="24" y="118" fill="#93C5FD" font-size="16">families: 4</text>
+    <text x="24" y="145" fill="#93C5FD" font-size="16">chips: 37</text>
+    <circle cx="244" cy="132" r="18" fill="#34D399"/>
+    <circle cx="244" cy="132" r="31" stroke="#34D399" stroke-opacity="0.35" stroke-width="3"/>
+  </g>
+</svg>
