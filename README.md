@@ -2,42 +2,40 @@
 
 # Majie
 
-**Embedded software developer building STM32 / GD32 tools**
+**Embedded software developer focused on MCU and embedded Linux**
 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![ARM](https://img.shields.io/badge/ARM_Cortex--M-0091BD?style=for-the-badge&logo=arm&logoColor=white)
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
 ![GD32](https://img.shields.io/badge/GD32-GigaDevice-00A4EF?style=for-the-badge)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-3A3A3A?style=for-the-badge)
 ![RT-Thread](https://img.shields.io/badge/RT--Thread-0A66C2?style=for-the-badge)
-![Keil](https://img.shields.io/badge/Keil_MDK-CC0000?style=for-the-badge&logo=armkeil&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-<img src="assets/embedded-lab.svg" alt="Embedded Toolchain Lab" width="100%">
+<img src="assets/embedded-linux-lab.png" alt="Embedded Linux board bring-up and IRQ debug lab" width="100%">
 
 </div>
 
 ## About
 
-I focus on embedded software development around **STM32 / GD32**, **ARM Cortex-M**, **Keil MDK**, **GCC + CMake**, and small RTOS-based MCU projects.
+I work close to the hardware: **MCU firmware**, **embedded Linux**, **ARM boards**, **RTOS integration**, serial debugging, build systems, and the small tools that make bring-up less painful.
 
-Lately I have been working on small embedded tooling around project setup, RTOS templates, and build-system glue.
+I like the part where software meets real signals: GPIO, UART logs, startup files, linker scripts, interrupt paths, SDK layouts, and board-specific details that decide whether a project boots cleanly.
 
 **Reach me at:** [mjie51939@gmail.com](mailto:mjie51939@gmail.com)
 
-## What I Build
+## Focus
 
-| Area | Details |
+| Area | What I care about |
 | --- | --- |
-| MCU project generators | Keil MDK scaffolding, CMake output, startup files, linker scripts |
-| RTOS-ready templates | FreeRTOS, RT-Thread Nano, SysTick and delay adaptation |
-| Chip support | STM32F10x, STM32F4xx, GD32F10x, GD32F4xx |
-| Desktop tooling | Python, PyQt6, SDK extraction, project configuration UI |
+| Embedded Linux | board bring-up, serial console, GPIO / IRQ debug, driver-facing workflows |
+| MCU firmware | STM32 / GD32, ARM Cortex-M, startup code, linker scripts, peripheral templates |
+| RTOS work | FreeRTOS, RT-Thread Nano, SysTick and delay adaptation |
+| Tooling | C, Python, PyQt6, Keil MDK, GCC, CMake, project scaffolding |
 
 ## Current Work
 
-Mostly embedded tooling and project scaffolding. One of the tools is [MCUQuickStart](https://github.com/Majie-xixi/MCUQuickStart), a STM32/GD32 project generator.
+Mostly embedded tooling and project setup experiments. One small example is [MCUQuickStart](https://github.com/Majie-xixi/MCUQuickStart), a STM32/GD32 project generator.
 
 ## Contribution Snake
 
@@ -46,9 +44,3 @@ Mostly embedded tooling and project scaffolding. One of the tools is [MCUQuickSt
   <source media="(prefers-color-scheme: light)" srcset="snake/github-contribution-grid-snake.svg">
   <img alt="GitHub contribution snake" src="snake/github-contribution-grid-snake.svg">
 </picture>
-
-<div align="center">
-
-Building small tools that save setup time and make embedded development smoother.
-
-</div>
