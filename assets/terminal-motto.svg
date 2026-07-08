@@ -1,0 +1,24 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1200" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset="0.52" stop-color="#0B1F2E"/>
+      <stop offset="1" stop-color="#071610"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.18 0 0 0 0 0.92 0 0 0 0 0.75 0 0 0 0.65 0"/>
+      <feBlend in="SourceGraphic" mode="screen"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="150" rx="18" fill="url(#panel)"/>
+  <path d="M42 112H180L220 72H360L410 102H560L610 48H760L810 86H1160" stroke="#22D3EE" stroke-opacity="0.22" stroke-width="3"/>
+  <path d="M42 118H180L220 78H360L410 108H560L610 54H760L810 92H1160" stroke="#34D399" stroke-opacity="0.38" stroke-width="2"/>
+  <g font-family="Consolas, 'Courier New', monospace" filter="url(#softGlow)">
+    <text x="54" y="54" fill="#5EEAD4" font-size="24">&gt; embedded developer | STM32 / GD32 | Linux bring-up</text>
+    <text x="54" y="91" fill="#BAE6FD" font-size="22">&gt; caffeine loaded, debugger attached, serial console alive</text>
+  </g>
+  <rect x="54" y="112" width="228" height="3" fill="#34D399">
+    <animate attributeName="width" values="80;228;80" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
