@@ -22,7 +22,7 @@
 
 I focus on embedded software development around **STM32 / GD32**, **ARM Cortex-M**, **Keil MDK**, **GCC + CMake**, and small RTOS-based MCU projects.
 
-I am currently building **MCUQuickStart**, a one-click STM32/GD32 project generator that creates ready-to-build Keil or CMake projects with optional FreeRTOS and RT-Thread Nano support.
+Lately I have been working on small embedded tooling around project setup, RTOS templates, and build-system glue.
 
 **Reach me at:** [mjie51939@gmail.com](mailto:mjie51939@gmail.com)
 
@@ -35,9 +35,9 @@ I am currently building **MCUQuickStart**, a one-click STM32/GD32 project genera
 | Chip support | STM32F10x, STM32F4xx, GD32F10x, GD32F4xx |
 | Desktop tooling | Python, PyQt6, SDK extraction, project configuration UI |
 
-## Current Focus
+## Current Work
 
-**[MCUQuickStart](https://github.com/Majie-xixi/MCUQuickStart)** is the main tool I am shaping now: one-click STM32/GD32 project generation with Keil, optional GCC + CMake, FreeRTOS, RT-Thread Nano, and SDK archive handling.
+Mostly embedded tooling and project scaffolding. One of the tools is [MCUQuickStart](https://github.com/Majie-xixi/MCUQuickStart), a STM32/GD32 project generator.
 
 ## Contribution Snake
 
