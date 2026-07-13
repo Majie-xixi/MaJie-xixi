@@ -56,7 +56,12 @@ I like the part where software meets real signals: GPIO, UART logs, startup file
 
 <div align="center">
 
-<img width="100%" src="github-metrics.svg" alt="GitHub profile metrics">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Majie-xixi&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub stats">
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Majie-xixi&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top languages">
+
+<img width="720" src="https://streak-stats.demolab.com?user=Majie-xixi&theme=github-dark-blue&hide_border=true" alt="GitHub streak">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Majie-xixi&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Contribution activity graph">
 
 </div>
 
