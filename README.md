@@ -8,17 +8,7 @@
 
 <img src="assets/embedded-linux-lab.png" alt="Embedded Linux board bring-up and IRQ debug lab" width="100%">
 
-```bash
-$ whoami
-[  0.000000] identity:  Majie · Embedded Developer
-[  0.000125] firmware:  STM32 / GD32 / ARM Cortex-M
-[  0.000251] system:    Embedded Linux · board bring-up
-[  0.000377] rtos:      FreeRTOS · RT-Thread
-[  0.000503] tools:     CMake · GCC · Keil · J-Link · Python
-[  0.000629] uptime:    6+ years on GitHub
-[  0.000755] status:    works on my board
-[  0.000881] faults:    HardFault × N, all recovered
-```
+<img src="assets/terminal-boot.svg" alt="terminal boot intro" width="720">
 
 </div>
 
