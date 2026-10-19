@@ -1,66 +1,107 @@
-<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>MAJIE — embedded developer</title>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#07111F"/>
-      <stop offset="0.48" stop-color="#10243A"/>
-      <stop offset="1" stop-color="#06140F"/>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A1522"/>
+      <stop offset="0.5" stop-color="#0D1D2E"/>
+      <stop offset="1" stop-color="#0A1A16"/>
     </linearGradient>
-    <linearGradient id="trace" x1="120" y1="310" x2="1080" y2="110" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#2DD4BF"/>
-      <stop offset="0.55" stop-color="#60A5FA"/>
-      <stop offset="1" stop-color="#A7F3D0"/>
-    </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.18 0 0 0 0 0.8 0 0 0 0 0.72 0 0 0 0.75 0"/>
-      <feBlend in="SourceGraphic" mode="screen"/>
-    </filter>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" stroke="#7DD3FC" stroke-opacity="0.08"/>
+    <pattern id="perf" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="14" r="1.2" fill="#1F2A37"/>
     </pattern>
+    <filter id="pulseGlow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .ledg { animation: kg 2s infinite; }
+      .leda { animation: ka 3.1s 0.6s infinite; }
+      .ledchip { animation: kg 1.4s infinite; }
+      @keyframes kg { 50% { opacity: 0.2; } }
+      @keyframes ka { 50% { opacity: 0.15; } }
+    </style>
   </defs>
 
-  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
-  <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
+  <!-- board -->
+  <rect x="1" y="1" width="1198" height="318" rx="20" fill="url(#bg2)" stroke="#30363D" stroke-width="1.5"/>
+  <rect x="1" y="1" width="1198" height="318" rx="20" fill="url(#perf)"/>
 
-  <g opacity="0.22">
-    <circle cx="1040" cy="88" r="126" fill="#22D3EE"/>
-    <circle cx="150" cy="348" r="160" fill="#34D399"/>
+  <!-- ambient blobs -->
+  <circle cx="1060" cy="70" r="120" fill="#22D3EE" opacity="0.07"/>
+  <circle cx="140" cy="260" r="140" fill="#34D399" opacity="0.07"/>
+
+  <!-- copper traces: base lane + core -->
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M 682 120 H 830 L 880 60 H 1190" stroke="#123B3E" stroke-width="7"/>
+    <path d="M 682 120 H 830 L 880 60 H 1190" stroke="#2DD4BF" stroke-width="1.8" opacity="0.55"/>
+    <path d="M 682 190 H 760 L 810 235 H 1190" stroke="#123B3E" stroke-width="7"/>
+    <path d="M 682 190 H 760 L 810 235 H 1190" stroke="#2DD4BF" stroke-width="1.8" opacity="0.55"/>
+    <path d="M 40 302 H 1160" stroke="#123B3E" stroke-width="7"/>
+    <path d="M 40 302 H 1160" stroke="#2DD4BF" stroke-width="1.8" opacity="0.4"/>
+    <path d="M 478 155 H 430" stroke="#123B3E" stroke-width="5"/>
   </g>
 
-  <g filter="url(#glow)">
-    <path d="M90 312H190L230 250H315L360 180H470L512 235H610L654 138H772L814 212H930L975 150H1108" stroke="url(#trace)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M90 344H245L288 292H430L472 326H616L656 284H760L808 328H1108" stroke="#34D399" stroke-opacity="0.55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- vias -->
+  <circle cx="430" cy="155" r="4.5" fill="#0D1117" stroke="#D29922" stroke-width="1.5"/>
+  <circle cx="540" cy="302" r="4.5" fill="#0D1117" stroke="#D29922" stroke-width="1.5"/>
+  <circle cx="600" cy="302" r="4.5" fill="#0D1117" stroke="#D29922" stroke-width="1.5"/>
+  <circle cx="660" cy="302" r="4.5" fill="#0D1117" stroke="#D29922" stroke-width="1.5"/>
+
+  <!-- signal pulses -->
+  <circle r="4" fill="#60A5FA" filter="url(#pulseGlow)">
+    <animateMotion dur="3.4s" repeatCount="indefinite" path="M 682 120 H 830 L 880 60 H 1190"/>
+  </circle>
+  <circle r="4" fill="#5EEAD4" filter="url(#pulseGlow)">
+    <animateMotion dur="4.2s" begin="0.8s" repeatCount="indefinite" path="M 682 190 H 760 L 810 235 H 1190"/>
+  </circle>
+  <circle r="4" fill="#FACC15" filter="url(#pulseGlow)">
+    <animateMotion dur="5s" begin="1.6s" repeatCount="indefinite" path="M 40 302 H 1160"/>
+  </circle>
+
+  <!-- left silkscreen text -->
+  <g font-family="Consolas, 'Cascadia Code', Menlo, 'Courier New', monospace">
+    <text x="70" y="120" fill="#E6EDF3" font-size="46" font-weight="700" letter-spacing="3">EMBEDDED</text>
+    <text x="70" y="172" fill="#5EEAD4" font-size="46" font-weight="700" letter-spacing="3">DEVELOPER</text>
+    <path d="M 70 192 H 340" stroke="#30363D" stroke-width="2"/>
+    <text x="70" y="222" fill="#8B949E" font-size="14">STM32 / GD32 &#183; FreeRTOS &#183; RT-Thread</text>
+    <text x="70" y="246" fill="#8B949E" font-size="14">Linux bring-up &#183; CMake / Keil / J-Link</text>
+    <text x="64" y="290" fill="#435965" font-size="10">rev 2.1 &#183; 2026</text>
   </g>
 
-  <!-- left text column: max width ~440px, chip starts at x=530 -->
+  <!-- MCU chip -->
+  <g>
+    <g fill="#1B3A4B">
+      <rect x="482" y="116" width="18" height="8" rx="2"/><rect x="482" y="151" width="18" height="8" rx="2"/>
+      <rect x="482" y="186" width="18" height="8" rx="2"/><rect x="482" y="221" width="18" height="8" rx="2"/>
+      <rect x="660" y="116" width="18" height="8" rx="2"/><rect x="660" y="151" width="18" height="8" rx="2"/>
+      <rect x="660" y="186" width="18" height="8" rx="2"/><rect x="660" y="221" width="18" height="8" rx="2"/>
+      <rect x="516" y="77" width="8" height="18" rx="2"/><rect x="551" y="77" width="8" height="18" rx="2"/>
+      <rect x="586" y="77" width="8" height="18" rx="2"/><rect x="621" y="77" width="8" height="18" rx="2"/>
+      <rect x="516" y="245" width="8" height="18" rx="2"/><rect x="551" y="245" width="8" height="18" rx="2"/>
+      <rect x="586" y="245" width="8" height="18" rx="2"/><rect x="621" y="245" width="8" height="18" rx="2"/>
+    </g>
+    <rect x="500" y="95" width="160" height="160" rx="10" fill="#0B1E2D" stroke="#67E8F9" stroke-width="2"/>
+    <circle cx="516" cy="111" r="4" fill="#30363D"/>
+    <circle cx="642" cy="110" r="4" fill="#FACC15" class="ledchip"/>
+    <g font-family="Consolas, 'Courier New', monospace" text-anchor="middle">
+      <text x="580" y="172" fill="#E0F2FE" font-size="26" font-weight="700" letter-spacing="2">MAJIE</text>
+      <text x="580" y="196" fill="#A7F3D0" font-size="13">STM32 &#183; GD32</text>
+      <text x="580" y="220" fill="#435965" font-size="10">ARM CORTEX-M</text>
+    </g>
+  </g>
+
+  <!-- right status panel -->
   <g font-family="Consolas, 'Courier New', monospace">
-    <text x="72" y="130" fill="#E0F2FE" font-size="54" font-weight="700">Embedded</text>
-    <text x="72" y="182" fill="#5EEAD4" font-size="34" font-weight="700">Toolchain Lab</text>
-    <text x="74" y="224" fill="#BAE6FD" font-size="16">Keil MDK &#183; GCC + CMake &#183; FreeRTOS &#183; RT-Thread</text>
-    <text x="74" y="260" fill="#5EEAD4" font-size="15">&gt; generating ready-to-build MCU projects</text>
-    <text x="74" y="286" fill="#93C5FD" font-size="15">&gt; wiring SDKs, startup files, linker scripts</text>
-  </g>
-
-  <!-- MCU chip: x 530..795, clear of text (ends ~470) and card (starts 850) -->
-  <g transform="translate(530 110) scale(0.85)">
-    <rect x="0" y="0" width="312" height="210" rx="26" fill="#081826" stroke="#67E8F9" stroke-opacity="0.55" stroke-width="2"/>
-    <rect x="38" y="35" width="236" height="140" rx="16" fill="#102A3F" stroke="#A7F3D0" stroke-opacity="0.45"/>
-    <path d="M70 88H242M70 122H242" stroke="#60A5FA" stroke-opacity="0.28"/>
-    <path d="M102 58V24M154 58V24M206 58V24M102 186V152M154 186V152M206 186V152" stroke="#5EEAD4" stroke-width="5" stroke-linecap="round"/>
-    <path d="M-32 58H18M-32 105H18M-32 152H18M294 58H344M294 105H344M294 152H344" stroke="#5EEAD4" stroke-width="5" stroke-linecap="round"/>
-    <text x="156" y="104" text-anchor="middle" fill="#E0F2FE" font-family="Consolas, 'Courier New', monospace" font-size="24" font-weight="700">MCU</text>
-    <text x="156" y="136" text-anchor="middle" fill="#A7F3D0" font-family="Consolas, 'Courier New', monospace" font-size="16">STM32 / GD32</text>
-  </g>
-
-  <!-- build target card: x 850..1142 -->
-  <g transform="translate(850 110)" font-family="Consolas, 'Courier New', monospace">
-    <rect x="0" y="0" width="292" height="176" rx="18" fill="#07131F" stroke="#60A5FA" stroke-opacity="0.42"/>
-    <text x="24" y="44" fill="#5EEAD4" font-size="18">build target</text>
-    <text x="24" y="78" fill="#E0F2FE" font-size="20">MCUQuickStart.exe</text>
-    <text x="24" y="118" fill="#93C5FD" font-size="16">families: 4</text>
-    <text x="24" y="145" fill="#93C5FD" font-size="16">chips: 37</text>
-    <circle cx="244" cy="132" r="18" fill="#34D399"/>
-    <circle cx="244" cy="132" r="31" stroke="#34D399" stroke-opacity="0.35" stroke-width="3"/>
+    <text x="880" y="118" fill="#3FB950" font-size="15">&gt; MCUQuickStart v3</text>
+    <text x="880" y="142" fill="#8B949E" font-size="14">families 4 &#183; chips 37</text>
+    <path d="M 880 162 H 1100" stroke="#30363D" stroke-width="1.5"/>
+    <text x="880" y="190" fill="#8B949E" font-size="12" letter-spacing="6">STATUS</text>
+    <circle cx="890" cy="222" r="5" fill="#3FB950" class="ledg"/>
+    <text x="904" y="227" fill="#8B949E" font-size="13">LINK</text>
+    <circle cx="975" cy="222" r="5" fill="#FACC15" class="leda"/>
+    <text x="989" y="227" fill="#8B949E" font-size="13">ACT</text>
+    <circle cx="1048" cy="222" r="5" fill="#60A5FA"/>
+    <text x="1062" y="227" fill="#8B949E" font-size="13">PWR</text>
+    <text x="880" y="262" fill="#8B949E" font-size="13">uptime: 6+ years on GitHub</text>
   </g>
 </svg>
