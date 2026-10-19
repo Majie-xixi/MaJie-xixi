@@ -6,13 +6,19 @@
 
 **MCU firmware · Embedded Linux · Board bring-up · RTOS tooling**
 
-<img src="assets/embedded-linux-lab.png" alt="Embedded Linux board bring-up and IRQ debug lab" width="100%">
+</div>
+
+<img src="assets/embedded-lab.svg" alt="Embedded Toolchain Lab" width="100%">
+
+<div align="center">
 
 <img src="assets/terminal-boot.svg" alt="terminal boot intro" width="720">
 
 </div>
 
-## Technologies
+```text
+$ ls ~/toolchain/
+```
 
 <div align="center">
 
@@ -29,24 +35,29 @@
 
 </div>
 
-## Statistics
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Majie-xixi&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub stats">
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Majie-xixi&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top languages">
-
-<img width="720" src="https://streak-stats.demolab.com?user=Majie-xixi&theme=github-dark-blue&hide_border=true" alt="GitHub streak">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Majie-xixi&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Contribution activity graph">
-
-</div>
-
-## Current Work
+```text
+$ cat ~/current_work.md
+```
 
 Mostly embedded tooling and project setup experiments. One small example is [MCUQuickStart](https://github.com/Majie-xixi/MCUQuickStart), a STM32/GD32 project generator.
 
-## Contribution Snake
+```text
+$ ./fetch_stats.sh --user Majie-xixi
+```
+
+<div align="center">
+
+<img height="160" src="https://streak-stats.demolab.com/?user=Majie-xixi&theme=github-dark-blue&hide_border=true" alt="streak">
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Majie-xixi&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true" alt="stats">
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Majie-xixi&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="langs">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Majie-xixi&theme=react-dark&hide_border=true&area=true" alt="activity">
+
+</div>
+
+```text
+$ systemctl status contribution-snake
+```
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="snake/github-contribution-grid-snake-dark.svg">
@@ -54,6 +65,12 @@ Mostly embedded tooling and project setup experiments. One small example is [MCU
   <img alt="GitHub contribution snake" src="snake/github-contribution-grid-snake.svg">
 </picture>
 
----
+```text
+$ mail -s "hello" mjie51939@gmail.com
+```
 
-📮 [mjie51939@gmail.com](mailto:mjie51939@gmail.com)
+<div align="center">
+
+[![email](https://img.shields.io/badge/%E5%86%99%E4%BF%A1%E7%BB%99%E6%88%91-mjie51939-111827?style=for-the-badge&logo=gmail&logoColor=5EEAD4)](mailto:mjie51939@gmail.com)
+
+</div>
