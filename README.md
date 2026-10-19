@@ -1,22 +1,24 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=900&center=true&vCenter=true&width=920&lines=Embedded+software+developer;MCU+firmware+%7C+Embedded+Linux+%7C+RTOS;Caffeine+loaded%2C+debugger+attached%2C+serial+console+alive" alt="Typing intro">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=800&center=true&vCenter=true&width=860&color=5EEAD4&lines=Embedded+Software+Developer;MCU+Firmware+%C2%B7+STM32+%2F+GD32;Embedded+Linux+%C2%B7+Board+Bring-up;RTOS+%C2%B7+FreeRTOS+%2F+RT-Thread" alt="Typing intro">
 
 # Majie
 
-**MCU firmware · Embedded Linux · Board bring-up · RTOS tooling**
+**硬件世界里写软件的人**
 
 <img src="assets/embedded-linux-lab.png" alt="Embedded Linux board bring-up and IRQ debug lab" width="100%">
 
+```bash
+$ whoami
+[  0.000000] identity:  Majie · Embedded Developer
+[  0.000125] firmware:  STM32 / GD32 / ARM Cortex-M
+[  0.000251] system:    Embedded Linux · board bring-up
+[  0.000377] rtos:      FreeRTOS · RT-Thread
+[  0.000503] tools:     CMake · GCC · Keil · J-Link · Python
+[  0.000629] uptime:    6+ years on GitHub
+```
+
 </div>
-
-## About
-
-I work close to the hardware: **MCU firmware**, **embedded Linux**, **ARM boards**, **RTOS integration**, serial debugging, build systems, and small tools that make bring-up less painful.
-
-I like the part where software meets real signals: GPIO, UART logs, startup files, linker scripts, interrupt paths, SDK layouts, and board-specific details that decide whether a project boots cleanly.
-
-**Reach me at:** [mjie51939@gmail.com](mailto:mjie51939@gmail.com)
 
 ## Technologies
 
@@ -34,23 +36,6 @@ I like the part where software meets real signals: GPIO, UART logs, startup file
 [![Qt](https://img.shields.io/badge/PyQt6-111827?style=for-the-badge&logo=qt&logoColor=41CD52)](https://www.qt.io/)
 
 </div>
-
-## Embedded Direction
-
-<div align="center">
-
-![Board Bring-up](https://img.shields.io/badge/Board_Bring--up-0F172A?style=for-the-badge&logo=linux&logoColor=5EEAD4)
-![Serial Debug](https://img.shields.io/badge/Serial_Debug-0F172A?style=for-the-badge&logo=gnometerminal&logoColor=60A5FA)
-![GPIO IRQ](https://img.shields.io/badge/GPIO_%2F_IRQ-0F172A?style=for-the-badge&logo=hackaday&logoColor=A7F3D0)
-![Driver Workflow](https://img.shields.io/badge/Driver_Workflow-0F172A?style=for-the-badge&logo=linuxcontainers&logoColor=FACC15)
-![RTOS Porting](https://img.shields.io/badge/RTOS_Porting-0F172A?style=for-the-badge&logoColor=93C5FD)
-![Project Tooling](https://img.shields.io/badge/Project_Tooling-0F172A?style=for-the-badge&logo=python&logoColor=FACC15)
-
-</div>
-
-- MCU firmware around STM32 / GD32, startup code, linker scripts, peripherals, and RTOS timing.
-- Embedded Linux bring-up around ARM boards, serial console, GPIO interrupts, and debug traces.
-- Desktop utilities and project scaffolding tools that reduce repetitive setup work.
 
 ## Statistics
 
@@ -76,3 +61,7 @@ Mostly embedded tooling and project setup experiments. One small example is [MCU
   <source media="(prefers-color-scheme: light)" srcset="snake/github-contribution-grid-snake.svg">
   <img alt="GitHub contribution snake" src="snake/github-contribution-grid-snake.svg">
 </picture>
+
+---
+
+📮 [mjie51939@gmail.com](mailto:mjie51939@gmail.com)
