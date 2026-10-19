@@ -33,7 +33,17 @@
     <path d="M90 344H245L288 292H430L472 326H616L656 284H760L808 328H1108" stroke="#34D399" stroke-opacity="0.55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
-  <g transform="translate(444 92)">
+  <!-- left text column: max width ~440px, chip starts at x=530 -->
+  <g font-family="Consolas, 'Courier New', monospace">
+    <text x="72" y="130" fill="#E0F2FE" font-size="54" font-weight="700">Embedded</text>
+    <text x="72" y="182" fill="#5EEAD4" font-size="34" font-weight="700">Toolchain Lab</text>
+    <text x="74" y="224" fill="#BAE6FD" font-size="16">Keil MDK &#183; GCC + CMake &#183; FreeRTOS &#183; RT-Thread</text>
+    <text x="74" y="260" fill="#5EEAD4" font-size="15">&gt; generating ready-to-build MCU projects</text>
+    <text x="74" y="286" fill="#93C5FD" font-size="15">&gt; wiring SDKs, startup files, linker scripts</text>
+  </g>
+
+  <!-- MCU chip: x 530..795, clear of text (ends ~470) and card (starts 850) -->
+  <g transform="translate(530 110) scale(0.85)">
     <rect x="0" y="0" width="312" height="210" rx="26" fill="#081826" stroke="#67E8F9" stroke-opacity="0.55" stroke-width="2"/>
     <rect x="38" y="35" width="236" height="140" rx="16" fill="#102A3F" stroke="#A7F3D0" stroke-opacity="0.45"/>
     <path d="M70 88H242M70 122H242" stroke="#60A5FA" stroke-opacity="0.28"/>
@@ -43,14 +53,8 @@
     <text x="156" y="136" text-anchor="middle" fill="#A7F3D0" font-family="Consolas, 'Courier New', monospace" font-size="16">STM32 / GD32</text>
   </g>
 
-  <g font-family="Consolas, 'Courier New', monospace">
-    <text x="74" y="90" fill="#E0F2FE" font-size="44" font-weight="700">Embedded Toolchain Lab</text>
-    <text x="78" y="132" fill="#BAE6FD" font-size="20">Keil MDK · GCC + CMake · FreeRTOS · RT-Thread Nano</text>
-    <text x="78" y="178" fill="#5EEAD4" font-size="18">&gt; generating ready-to-build MCU projects</text>
-    <text x="78" y="205" fill="#93C5FD" font-size="18">&gt; wiring SDKs, startup files, linker scripts</text>
-  </g>
-
-  <g transform="translate(826 92)" font-family="Consolas, 'Courier New', monospace">
+  <!-- build target card: x 850..1142 -->
+  <g transform="translate(850 110)" font-family="Consolas, 'Courier New', monospace">
     <rect x="0" y="0" width="292" height="176" rx="18" fill="#07131F" stroke="#60A5FA" stroke-opacity="0.42"/>
     <text x="24" y="44" fill="#5EEAD4" font-size="18">build target</text>
     <text x="24" y="78" fill="#E0F2FE" font-size="20">MCUQuickStart.exe</text>
