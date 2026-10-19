@@ -4,7 +4,7 @@
 
 # Majie
 
-**硬件世界里写软件的人**
+**MCU firmware · Embedded Linux · Board bring-up · RTOS tooling**
 
 <img src="assets/embedded-linux-lab.png" alt="Embedded Linux board bring-up and IRQ debug lab" width="100%">
 
